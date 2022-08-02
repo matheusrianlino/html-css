@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ex009</title>
+</head>
+<body>
+    <h1>Outras Formatações</h1>
+    <h2>Código-fonte e Pré-formatação</h2>
+    <p>Podemos dar sentido a códigos com a tag semântica &ltcode&gt.</p>
+    <p>O comando <code>document.getElementById('Teste')</code> é escrito em linguagem Javascript.</p>
+    <p>Podemos tambem pré-formatar texto utilizando a tag &ltpre&gt.</p>
+    <pre>
+        <code>
+users = list()
+user = dict()
+c = ''
+while True:
+    user['name'] = input('Digite o nome: ')
+    user['idade'] = input('Digite a idade: ')
+    users.append(user.copy())
+    while c != 'S' and c != 'N':
+        c = str(input('Deseja continuar? [S/N]: ')).strip().upper()
+    if c == 'N':
+        break
+    c = ''
+for c in range(0, len(users)):
+    print(f'Nome: {users[c]["name"]}')
+    print(f'Idade: {users[c]["idade"]}')
+        </code>
+    </pre>
+    <h2>Citaçôes</h2>
+    <p>Podemos fazer citações utilizando a tag &ltq&gt</p>
+    <p>Como diria o pai de um amigo: <q>o computador é um burro muito rápido</q></p>
+    <h2>Abreviações</h2>
+    <p>Podemos determinar siglas utilizando a tag &ltabbr&gt</p>
+    <p>Exemplo: <abbr title="HyperText Markup Language">HTML</abbr></p>
+    <h2>Texto invertido</h2>
+    <p>Podemos criar <bdo dir="rtl">textos invertido</bdo> usando a tag &ltbdp&gt</p>
+</body>
+</html>

@@ -1,0 +1,18 @@
+body {
+    background-color: bisque;
+    font: 20px Arial;
+    color: brown;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    background-color: burlywood;
+    color: rgb(54, 7, 7);
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    color: rgb(107, 16, 34);
+}
