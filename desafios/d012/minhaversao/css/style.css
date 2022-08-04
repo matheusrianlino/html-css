@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@700&family=Sriracha&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    height: 270px;
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 6em;
+    padding-top: 50px;
+    font-family: 'Passion One', cursive;
+}
+
+header span{
+    font-size: 1.5em;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+article p {
+    font-family: 'Sriracha', cursive;
+    font-size: 3em;
+    margin-left: 30px;
+    line-height: 100px;
+    margin-top: 70px;
+}
+
+.secao {
+    color: white;
+    padding: 50px;
+    margin-top: 150px;
+    background-color: black;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.secao p {
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.459);
+    margin-bottom: 0;
+    margin-left: -20px;
+    padding: 5px;
+    margin-top: 0;
+    text-shadow: 1px 1px black;
+}
+
+#flor {
+    background-image: url("../imagens/background001.jpg");
+}
+
+#folhas {
+    background-image: url("../imagens/background002.jpg");
+}
+
+footer {
+    background-color: black;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px 0px;
+    margin-top: 150px;
+}
+
